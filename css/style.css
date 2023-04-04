@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+body {
+    background-color: #020202;
+    color: white;  font-family: 'Roboto', sans-serif;
+}
+  
+
+   
+
+
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: white;
+    padding-top: 7px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar {
+    background-color: #151515;
+
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.footer {
+    background-color: #151515;
+    color: white;
+}
+
+.footer nav ul li {
+    color: white;
+    list-style: none;
+
+}
+
+.footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#reservas {
+    color: white;
+
+    background-image: url(../img/reservar\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#reservas h1 {
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.contenedorReserevas {
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
+}
